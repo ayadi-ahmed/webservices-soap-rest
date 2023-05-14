@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<bindings xmlns="http://java.sun.com/xml/ns/jaxb" if-exists="true" version="2.1">
+      
+    <!--
+
+Ce fichier a été généré par l'implémentation de référence JavaTM Architecture for XML Binding (JAXB), v2.3.0 
+Voir <a href="https://javaee.github.io/jaxb-v2/">https://javaee.github.io/jaxb-v2/</a> 
+Toute modification apportée à ce fichier sera perdue lors de la recompilation du schéma source. 
+Généré le : 2023.05.13 à 03:44:40 PM CET 
+
+  -->
+      
+    <bindings xmlns:tns="http://tempuri.org/" if-exists="true" scd="x-schema::tns">
+            
+        <schemaBindings map="false">
+                  
+            <package name="com.example.serviceweb10.CalculatorWs"/>
+                
+        </schemaBindings>
+            
+        <bindings if-exists="true" scd="tns:Add">
+                  
+            <class ref="com.example.serviceweb10.CalculatorWs.Add"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:AddResponse">
+                  
+            <class ref="com.example.serviceweb10.CalculatorWs.AddResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:Subtract">
+                  
+            <class ref="com.example.serviceweb10.CalculatorWs.Subtract"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:SubtractResponse">
+                  
+            <class ref="com.example.serviceweb10.CalculatorWs.SubtractResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:Multiply">
+                  
+            <class ref="com.example.serviceweb10.CalculatorWs.Multiply"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:MultiplyResponse">
+                  
+            <class ref="com.example.serviceweb10.CalculatorWs.MultiplyResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:Divide">
+                  
+            <class ref="com.example.serviceweb10.CalculatorWs.Divide"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:DivideResponse">
+                  
+            <class ref="com.example.serviceweb10.CalculatorWs.DivideResponse"/>
+                
+        </bindings>
+          
+    </bindings>
+    
+</bindings>
