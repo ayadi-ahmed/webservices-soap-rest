@@ -93,11 +93,11 @@
                 </executions>
                 <configuration>
                     <schemaLanguage>WSDL</schemaLanguage>
-                    <generatePackage>com.example.serviceweb10.CalculatorWs</generatePackage>
+                    <generatePackage>com.example.serviceweb10.CountriesWs</generatePackage>
                     <generateDirectory>${project.basedir}/src/main/java</generateDirectory>
                     <schemas>
                         <schema>
-                            <url>http://www.dneonline.com/calculator.asmx?WSDL</url>
+                            <url>http://webservices.oorsprong.org/websamples.countryinfo/countryinfoservice.wso?WSDL</url>
                         </schema>
                     </schemas>
                 </configuration>
